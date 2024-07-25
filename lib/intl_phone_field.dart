@@ -250,7 +250,7 @@ class IntlPhoneField extends StatefulWidget {
   final TextMagnifierConfiguration? magnifierConfiguration;
 
   const IntlPhoneField({
-    Key? key,
+    super.key,
     this.formFieldKey,
     this.initialCountryCode,
     this.languageCode = 'en',
@@ -296,7 +296,7 @@ class IntlPhoneField extends StatefulWidget {
     this.pickerDialogStyle,
     this.flagsButtonMargin = EdgeInsets.zero,
     this.magnifierConfiguration,
-  }) : super(key: key);
+  });
 
   @override
   State<IntlPhoneField> createState() => _IntlPhoneFieldState();
@@ -420,21 +420,20 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
           number: value,
         );
 
-        if (widget.autovalidateMode != AutovalidateMode.disabled) {
-          validatorMessage = await widget.validator?.call(phoneNumber);
-        }
-
         widget.onChanged?.call(phoneNumber);
       },
       validator: (value) {
-        if (value == null || !isNumeric(value)) return validatorMessage;
-        if (!widget.disableLengthCheck) {
-          return value.length >= _selectedCountry.minLength && value.length <= _selectedCountry.maxLength
-              ? null
-              : widget.invalidNumberMessage;
+        if (value == null || !isNumeric(value)) {
+          return widget.invalidNumberMessage;
         }
 
-        return validatorMessage;
+        if (!widget.disableLengthCheck) {
+          final isValidLength =
+              value.length >= _selectedCountry.minLength && value.length <= _selectedCountry.maxLength;
+          if (!isValidLength) return widget.invalidNumberMessage;
+        }
+
+        return null;
       },
       maxLength: widget.disableLengthCheck ? null : _selectedCountry.maxLength,
       keyboardType: widget.keyboardType,
