@@ -249,6 +249,8 @@ class IntlPhoneField extends StatefulWidget {
   /// If null, default magnification configuration will be used.
   final TextMagnifierConfiguration? magnifierConfiguration;
 
+  final TapRegionCallback? onTapOutside;
+
   const IntlPhoneField({
     super.key,
     this.formFieldKey,
@@ -296,6 +298,7 @@ class IntlPhoneField extends StatefulWidget {
     this.pickerDialogStyle,
     this.flagsButtonMargin = EdgeInsets.zero,
     this.magnifierConfiguration,
+    this.onTapOutside,
   });
 
   @override
@@ -443,6 +446,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
       autofocus: widget.autofocus,
       textInputAction: widget.textInputAction,
       autovalidateMode: widget.autovalidateMode,
+      onTapOutside: widget.onTapOutside,
     );
   }
 

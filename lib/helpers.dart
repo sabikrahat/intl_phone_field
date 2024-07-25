@@ -21,7 +21,8 @@ extension CountryExtensions on List<Country> {
           ? country.dialCode.contains(search)
           : removeDiacritics(country.name.replaceAll("+", "").toLowerCase()).contains(search) ||
               country.nameTranslations.values
-                  .any((element) => removeDiacritics(element.toLowerCase()).contains(search)),
+                  .any((element) => removeDiacritics(element.toLowerCase()).contains(search)) ||
+              country.code.toLowerCase().contains(search),
     ).toList();
   }
 }
