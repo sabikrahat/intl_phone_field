@@ -5,9 +5,6 @@
 - Add `minLines` `maxLines` `expands` `onTapOutside` parameters.
 - Fix the validation issue when the phone number is empty.
 - Enhance the search functionality. Now the search is case-insensitive and supports searching by country name, dial code, and country code and currency name.
-- Add `magnifierConfiguration` to customize the magnifier.
-- Add `formFieldKey` for the phone input text field key.
-- Update phone number length of several countries.
 
 ## [3.3.0] - Release
 

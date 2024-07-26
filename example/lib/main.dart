@@ -67,6 +67,7 @@ class _MyAppState extends State<MyApp> {
                   },
                   onCountryChanged: (country) {
                     print('Country changed to: ' + country.name);
+                    print('Currency changed to: ' + country.currencyName + ' (' + country.currencySymbol + ')');
                   },
                 ),
                 SizedBox(

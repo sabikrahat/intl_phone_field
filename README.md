@@ -6,18 +6,18 @@
 
 A customised Flutter TextFormField to input international phone number along with country code.
 
-This widget can be used to make customised text field to take phone number input for any country along with an option to choose country code from a dropdown.
+This widget can be used to make customised text field to take phone number input for any country along with an option to choose country code from a dropdown. You can also get the currency name and symbol for the selected country.
 
-## ⚠️ The package is deprecated and this repository is no longer maintained ⚠️
+<!-- ## ⚠️ The package is deprecated and this repository is no longer maintained ⚠️
 
 As of June 2021, I, @marcaureln, have been maintaining this Flutter package initially created by @vanshg395. Regrettably, Vansh has been unresponsive, and I am unable to release new versions (the last release is 6 months old as of writing).
 
 Considering this, I recommend users to explore alternatives on [pub.dev](https://pub.dev/) or, if interested, fork this repository for continued support. Life can be hectic, and I wish Vansh is doing well.
 
-Thank you for your understanding and continued support.
+Thank you for your understanding and continued support. -->
 
-<details>
-  <summary>Old Readme</summary>
+<!-- <details>
+  <summary>Old Readme</summary> -->
 
 ## Screenshots
 
@@ -111,6 +111,7 @@ Comment on Issue or Pull Request, asking @all-contributors to add a contributor:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/The-Redhat"><img src="https://avatars.githubusercontent.com/u/33162310?v=4?s=100" width="100px;" alt="Gregor Weber"/><br /><sub><b>Gregor Weber</b></sub></a><br /><a href="https://github.com/vanshg395/intl_phone_field/commits?author=The-Redhat" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://beacons.ai/hanyi00i"><img src="https://avatars.githubusercontent.com/u/92980326?v=4?s=100" width="100px;" alt="Ooi Han Yi"/><br /><sub><b>Ooi Han Yi</b></sub></a><br /><a href="https://github.com/vanshg395/intl_phone_field/commits?author=hanyi00i" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.jimmyff.co.uk"><img src="https://avatars.githubusercontent.com/u/298850?v=4?s=100" width="100px;" alt="Jimmy Forrester-Fellowes"/><br /><sub><b>Jimmy Forrester-Fellowes</b></sub></a><br /><a href="https://github.com/vanshg395/intl_phone_field/commits?author=jimmyff" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sabikrahat.github.io/"><img src="https://avatars.githubusercontent.com/u/49031412?v=4" width="100px;" alt="Md. Sabik Alam Rahat"/><br /><sub><b>Md. Sabik Alam Rahat</b></sub></a><br /><a href="https://github.com/vanshg395/intl_phone_field/commits?author=sabikrahat" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
@@ -124,4 +125,4 @@ Comment on Issue or Pull Request, asking @all-contributors to add a contributor:
 
 This project is licensed under the MIT license. See [LICENSE](LICENSE) for more information.
 
-</details>
+<!-- </details> -->
