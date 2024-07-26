@@ -250,6 +250,9 @@ class IntlPhoneField extends StatefulWidget {
   final TextMagnifierConfiguration? magnifierConfiguration;
 
   final TapRegionCallback? onTapOutside;
+  final int? minLines;
+  final int? maxLines;
+  final bool expands;
 
   const IntlPhoneField({
     super.key,
@@ -299,6 +302,9 @@ class IntlPhoneField extends StatefulWidget {
     this.flagsButtonMargin = EdgeInsets.zero,
     this.magnifierConfiguration,
     this.onTapOutside,
+    this.minLines,
+    this.maxLines,
+    this.expands = false,
   });
 
   @override
@@ -447,6 +453,9 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
       textInputAction: widget.textInputAction,
       autovalidateMode: widget.autovalidateMode,
       onTapOutside: widget.onTapOutside,
+      minLines: widget.minLines,
+      maxLines: widget.maxLines,
+      expands: widget.expands,
     );
   }
 

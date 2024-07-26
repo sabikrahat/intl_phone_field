@@ -32,6 +32,8 @@ const List<Country> countries = [
     dialCode: "93",
     minLength: 9,
     maxLength: 9,
+    currencyName: "AFN",
+    currencySymbol: "؋",
   ),
   Country(
     name: "Åland Islands",
@@ -63,6 +65,8 @@ const List<Country> countries = [
     dialCode: "358",
     minLength: 15,
     maxLength: 15,
+    currencyName: "Euro",
+    currencySymbol: "€",
   ),
   Country(
     name: "Albania",
@@ -94,6 +98,8 @@ const List<Country> countries = [
     dialCode: "355",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ALL",
+    currencySymbol: "L",
   ),
   Country(
     name: "Algeria",
@@ -125,6 +131,8 @@ const List<Country> countries = [
     dialCode: "213",
     minLength: 9,
     maxLength: 9,
+    currencyName: "DZD",
+    currencySymbol: "د.ج",
   ),
   Country(
     name: "American Samoa",
@@ -156,6 +164,8 @@ const List<Country> countries = [
     dialCode: "1684",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Andorra",
@@ -187,6 +197,8 @@ const List<Country> countries = [
     dialCode: "376",
     minLength: 6,
     maxLength: 6,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Angola",
@@ -218,6 +230,8 @@ const List<Country> countries = [
     dialCode: "244",
     minLength: 9,
     maxLength: 9,
+    currencyName: "AOA",
+    currencySymbol: "Kz",
   ),
   Country(
     name: "Anguilla",
@@ -249,6 +263,8 @@ const List<Country> countries = [
     dialCode: "1264",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Antarctica",
@@ -280,6 +296,8 @@ const List<Country> countries = [
     dialCode: "672",
     minLength: 6,
     maxLength: 6,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Antigua and Barbuda",
@@ -311,6 +329,8 @@ const List<Country> countries = [
     dialCode: "1268",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Argentina",
@@ -342,6 +362,8 @@ const List<Country> countries = [
     dialCode: "54",
     minLength: 12,
     maxLength: 12,
+    currencyName: "ARS",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Armenia",
@@ -373,6 +395,8 @@ const List<Country> countries = [
     dialCode: "374",
     minLength: 8,
     maxLength: 8,
+    currencyName: "AMD",
+    currencySymbol: "֏",
   ),
   Country(
     name: "Aruba",
@@ -404,6 +428,8 @@ const List<Country> countries = [
     dialCode: "297",
     minLength: 7,
     maxLength: 7,
+    currencyName: "AWG",
+    currencySymbol: "ƒ",
   ),
   Country(
     name: "Australia",
@@ -435,6 +461,8 @@ const List<Country> countries = [
     dialCode: "61",
     minLength: 9,
     maxLength: 9,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Austria",
@@ -466,6 +494,8 @@ const List<Country> countries = [
     dialCode: "43",
     minLength: 13,
     maxLength: 13,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Azerbaijan",
@@ -497,6 +527,8 @@ const List<Country> countries = [
     dialCode: "994",
     minLength: 9,
     maxLength: 9,
+    currencyName: "AZN",
+    currencySymbol: "₼",
   ),
   Country(
     name: "Bahamas",
@@ -528,6 +560,8 @@ const List<Country> countries = [
     dialCode: "1242",
     minLength: 7,
     maxLength: 7,
+    currencyName: "BSD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Bahrain",
@@ -559,6 +593,8 @@ const List<Country> countries = [
     dialCode: "973",
     minLength: 8,
     maxLength: 8,
+    currencyName: "BHD",
+    currencySymbol: "BD",
   ),
   Country(
     name: "Bangladesh",
@@ -590,6 +626,8 @@ const List<Country> countries = [
     dialCode: "880",
     minLength: 10,
     maxLength: 10,
+    currencyName: "BDT",
+    currencySymbol: "৳",
   ),
   Country(
     name: "Barbados",
@@ -621,6 +659,8 @@ const List<Country> countries = [
     dialCode: "1246",
     minLength: 7,
     maxLength: 7,
+    currencyName: "BBD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Belarus",
@@ -652,6 +692,8 @@ const List<Country> countries = [
     dialCode: "375",
     minLength: 10,
     maxLength: 10,
+    currencyName: "BYN",
+    currencySymbol: "Br",
   ),
   Country(
     name: "Belgium",
@@ -683,6 +725,8 @@ const List<Country> countries = [
     dialCode: "32",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Belize",
@@ -714,6 +758,8 @@ const List<Country> countries = [
     dialCode: "501",
     minLength: 7,
     maxLength: 7,
+    currencyName: "BZD",
+    currencySymbol: "BZ\$",
   ),
   Country(
     name: "Benin",
@@ -745,6 +791,8 @@ const List<Country> countries = [
     dialCode: "229",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Bermuda",
@@ -776,6 +824,8 @@ const List<Country> countries = [
     dialCode: "1441",
     minLength: 7,
     maxLength: 7,
+    currencyName: "BMD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Bhutan",
@@ -807,6 +857,8 @@ const List<Country> countries = [
     dialCode: "975",
     minLength: 8,
     maxLength: 8,
+    currencyName: "BTN",
+    currencySymbol: "Nu.",
   ),
   Country(
     name: "Bolivia, Plurinational State of bolivia",
@@ -838,6 +890,8 @@ const List<Country> countries = [
     dialCode: "591",
     minLength: 8,
     maxLength: 8,
+    currencyName: "BOB",
+    currencySymbol: "Bs.",
   ),
   Country(
     name: "Bosnia and Herzegovina",
@@ -869,6 +923,8 @@ const List<Country> countries = [
     dialCode: "387",
     minLength: 9,
     maxLength: 9,
+    currencyName: "BAM",
+    currencySymbol: "KM",
   ),
   Country(
     name: "Botswana",
@@ -900,6 +956,8 @@ const List<Country> countries = [
     dialCode: "267",
     minLength: 8,
     maxLength: 8,
+    currencyName: "BWP",
+    currencySymbol: "P",
   ),
   Country(
     name: "Bouvet Island",
@@ -931,6 +989,8 @@ const List<Country> countries = [
     dialCode: "47",
     minLength: 15,
     maxLength: 15,
+    currencyName: "NOK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Brazil",
@@ -962,6 +1022,8 @@ const List<Country> countries = [
     dialCode: "55",
     minLength: 11,
     maxLength: 11,
+    currencyName: "BRL",
+    currencySymbol: "R\$",
   ),
   Country(
     name: "British Indian Ocean Territory",
@@ -993,6 +1055,8 @@ const List<Country> countries = [
     dialCode: "246",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Brunei Darussalam",
@@ -1024,6 +1088,8 @@ const List<Country> countries = [
     dialCode: "673",
     minLength: 7,
     maxLength: 7,
+    currencyName: "BND",
+    currencySymbol: "B\$",
   ),
   Country(
     name: "Bulgaria",
@@ -1055,6 +1121,8 @@ const List<Country> countries = [
     dialCode: "359",
     minLength: 9,
     maxLength: 9,
+    currencyName: "BGN",
+    currencySymbol: "лв",
   ),
   Country(
     name: "Burkina Faso",
@@ -1086,6 +1154,8 @@ const List<Country> countries = [
     dialCode: "226",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Burundi",
@@ -1117,6 +1187,8 @@ const List<Country> countries = [
     dialCode: "257",
     minLength: 8,
     maxLength: 8,
+    currencyName: "BIF",
+    currencySymbol: "FBu",
   ),
   Country(
     name: "Cambodia",
@@ -1148,6 +1220,8 @@ const List<Country> countries = [
     dialCode: "855",
     minLength: 9,
     maxLength: 9,
+    currencyName: "KHR",
+    currencySymbol: "៛",
   ),
   Country(
     name: "Cameroon",
@@ -1179,6 +1253,8 @@ const List<Country> countries = [
     dialCode: "237",
     minLength: 9,
     maxLength: 9,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Canada",
@@ -1210,6 +1286,8 @@ const List<Country> countries = [
     dialCode: "1",
     minLength: 10,
     maxLength: 10,
+    currencyName: "CAD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Cayman Islands",
@@ -1241,6 +1319,8 @@ const List<Country> countries = [
     dialCode: "345",
     minLength: 7,
     maxLength: 7,
+    currencyName: "KYD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Central African Republic",
@@ -1272,6 +1352,8 @@ const List<Country> countries = [
     dialCode: "236",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Chad",
@@ -1303,6 +1385,8 @@ const List<Country> countries = [
     dialCode: "235",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Chile",
@@ -1334,6 +1418,8 @@ const List<Country> countries = [
     dialCode: "56",
     minLength: 9,
     maxLength: 9,
+    currencyName: "CLP",
+    currencySymbol: "\$",
   ),
   Country(
     name: "China",
@@ -1365,6 +1451,8 @@ const List<Country> countries = [
     dialCode: "86",
     minLength: 11,
     maxLength: 12,
+    currencyName: "CNY",
+    currencySymbol: "¥",
   ),
   Country(
     name: "Christmas Island",
@@ -1396,6 +1484,8 @@ const List<Country> countries = [
     dialCode: "61",
     minLength: 15,
     maxLength: 15,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Cocos (Keeling) Islands",
@@ -1427,6 +1517,8 @@ const List<Country> countries = [
     dialCode: "61",
     minLength: 15,
     maxLength: 15,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Colombia",
@@ -1458,6 +1550,8 @@ const List<Country> countries = [
     dialCode: "57",
     minLength: 10,
     maxLength: 10,
+    currencyName: "COP",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Comoros",
@@ -1489,6 +1583,8 @@ const List<Country> countries = [
     dialCode: "269",
     minLength: 7,
     maxLength: 7,
+    currencyName: "KMF",
+    currencySymbol: "CF",
   ),
   Country(
     name: "Congo",
@@ -1520,6 +1616,8 @@ const List<Country> countries = [
     dialCode: "242",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Congo, The Democratic Republic of the Congo",
@@ -1551,6 +1649,8 @@ const List<Country> countries = [
     dialCode: "243",
     minLength: 9,
     maxLength: 9,
+    currencyName: "CDF",
+    currencySymbol: "FC",
   ),
   Country(
     name: "Cook Islands",
@@ -1582,6 +1682,8 @@ const List<Country> countries = [
     dialCode: "682",
     minLength: 5,
     maxLength: 5,
+    currencyName: "NZD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Costa Rica",
@@ -1613,6 +1715,8 @@ const List<Country> countries = [
     dialCode: "506",
     minLength: 8,
     maxLength: 8,
+    currencyName: "CRC",
+    currencySymbol: "₡",
   ),
   Country(
     name: "Côte d'Ivoire",
@@ -1644,6 +1748,8 @@ const List<Country> countries = [
     dialCode: "225",
     minLength: 10,
     maxLength: 10,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Croatia",
@@ -1675,6 +1781,8 @@ const List<Country> countries = [
     dialCode: "385",
     minLength: 12,
     maxLength: 12,
+    currencyName: "HRK",
+    currencySymbol: "kn",
   ),
   Country(
     name: "Cuba",
@@ -1706,6 +1814,8 @@ const List<Country> countries = [
     dialCode: "53",
     minLength: 8,
     maxLength: 8,
+    currencyName: "CUP",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Cyprus",
@@ -1737,6 +1847,8 @@ const List<Country> countries = [
     dialCode: "357",
     minLength: 8,
     maxLength: 8,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Czech Republic",
@@ -1768,6 +1880,8 @@ const List<Country> countries = [
     dialCode: "420",
     minLength: 9,
     maxLength: 9,
+    currencyName: "CZK",
+    currencySymbol: "Kč",
   ),
   Country(
     name: "Denmark",
@@ -1799,6 +1913,8 @@ const List<Country> countries = [
     dialCode: "45",
     minLength: 8,
     maxLength: 8,
+    currencyName: "DKK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Djibouti",
@@ -1830,6 +1946,8 @@ const List<Country> countries = [
     dialCode: "253",
     minLength: 6,
     maxLength: 6,
+    currencyName: "DJF",
+    currencySymbol: "Fdj",
   ),
   Country(
     name: "Dominica",
@@ -1861,6 +1979,8 @@ const List<Country> countries = [
     dialCode: "1767",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Dominican Republic",
@@ -1892,6 +2012,8 @@ const List<Country> countries = [
     dialCode: "1",
     minLength: 10,
     maxLength: 10,
+    currencyName: "DOP",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Ecuador",
@@ -1923,6 +2045,8 @@ const List<Country> countries = [
     dialCode: "593",
     minLength: 8,
     maxLength: 9,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Egypt",
@@ -1954,6 +2078,8 @@ const List<Country> countries = [
     dialCode: "20",
     minLength: 10,
     maxLength: 10,
+    currencyName: "EGP",
+    currencySymbol: "E£",
   ),
   Country(
     name: "El Salvador",
@@ -1985,6 +2111,8 @@ const List<Country> countries = [
     dialCode: "503",
     minLength: 11,
     maxLength: 11,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Equatorial Guinea",
@@ -2016,6 +2144,8 @@ const List<Country> countries = [
     dialCode: "240",
     minLength: 6,
     maxLength: 6,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Eritrea",
@@ -2047,6 +2177,8 @@ const List<Country> countries = [
     dialCode: "291",
     minLength: 7,
     maxLength: 7,
+    currencyName: "ERN",
+    currencySymbol: "Nfk",
   ),
   Country(
     name: "Estonia",
@@ -2078,6 +2210,8 @@ const List<Country> countries = [
     dialCode: "372",
     minLength: 10,
     maxLength: 10,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Ethiopia",
@@ -2109,6 +2243,8 @@ const List<Country> countries = [
     dialCode: "251",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ETB",
+    currencySymbol: "Br",
   ),
   Country(
     name: "Falkland Islands (Malvinas)",
@@ -2140,6 +2276,8 @@ const List<Country> countries = [
     dialCode: "500",
     minLength: 5,
     maxLength: 5,
+    currencyName: "FKP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Faroe Islands",
@@ -2171,6 +2309,8 @@ const List<Country> countries = [
     dialCode: "298",
     minLength: 6,
     maxLength: 6,
+    currencyName: "DKK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Fiji",
@@ -2202,6 +2342,8 @@ const List<Country> countries = [
     dialCode: "679",
     minLength: 7,
     maxLength: 7,
+    currencyName: "FJD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Finland",
@@ -2233,6 +2375,8 @@ const List<Country> countries = [
     dialCode: "358",
     minLength: 12,
     maxLength: 12,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "France",
@@ -2264,6 +2408,8 @@ const List<Country> countries = [
     dialCode: "33",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "French Guiana",
@@ -2295,6 +2441,8 @@ const List<Country> countries = [
     dialCode: "594",
     minLength: 15,
     maxLength: 15,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "French Polynesia",
@@ -2326,6 +2474,8 @@ const List<Country> countries = [
     dialCode: "689",
     minLength: 6,
     maxLength: 6,
+    currencyName: "XPF",
+    currencySymbol: "₣",
   ),
   Country(
     name: "French Southern Territories",
@@ -2357,6 +2507,8 @@ const List<Country> countries = [
     dialCode: "262",
     minLength: 15,
     maxLength: 15,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Gabon",
@@ -2388,6 +2540,8 @@ const List<Country> countries = [
     dialCode: "241",
     minLength: 9,
     maxLength: 9,
+    currencyName: "XAF",
+    currencySymbol: "FCFA",
   ),
   Country(
     name: "Gambia",
@@ -2419,6 +2573,8 @@ const List<Country> countries = [
     dialCode: "220",
     minLength: 7,
     maxLength: 7,
+    currencyName: "GMD",
+    currencySymbol: "D",
   ),
   Country(
     name: "Georgia",
@@ -2450,6 +2606,8 @@ const List<Country> countries = [
     dialCode: "995",
     minLength: 8,
     maxLength: 9,
+    currencyName: "GEL",
+    currencySymbol: "₾",
   ),
   Country(
     name: "Germany",
@@ -2481,6 +2639,8 @@ const List<Country> countries = [
     dialCode: "49",
     minLength: 9,
     maxLength: 13,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Ghana",
@@ -2512,6 +2672,8 @@ const List<Country> countries = [
     dialCode: "233",
     minLength: 9,
     maxLength: 9,
+    currencyName: "GHS",
+    currencySymbol: "GH₵",
   ),
   Country(
     name: "Gibraltar",
@@ -2543,6 +2705,8 @@ const List<Country> countries = [
     dialCode: "350",
     minLength: 8,
     maxLength: 8,
+    currencyName: "GIP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Greece",
@@ -2574,6 +2738,8 @@ const List<Country> countries = [
     dialCode: "30",
     minLength: 10,
     maxLength: 10,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Greenland",
@@ -2605,6 +2771,8 @@ const List<Country> countries = [
     dialCode: "299",
     minLength: 6,
     maxLength: 6,
+    currencyName: "DKK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Grenada",
@@ -2636,6 +2804,8 @@ const List<Country> countries = [
     dialCode: "1473",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Guadeloupe",
@@ -2667,6 +2837,8 @@ const List<Country> countries = [
     dialCode: "590",
     minLength: 15,
     maxLength: 15,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Guam",
@@ -2698,6 +2870,8 @@ const List<Country> countries = [
     dialCode: "1671",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Guatemala",
@@ -2729,6 +2903,8 @@ const List<Country> countries = [
     dialCode: "502",
     minLength: 8,
     maxLength: 8,
+    currencyName: "GTQ",
+    currencySymbol: "Q",
   ),
   Country(
     name: "Guernsey",
@@ -2760,6 +2936,8 @@ const List<Country> countries = [
     dialCode: "44",
     minLength: 6,
     maxLength: 6,
+    currencyName: "GBP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Guinea",
@@ -2791,6 +2969,8 @@ const List<Country> countries = [
     dialCode: "224",
     minLength: 8,
     maxLength: 9,
+    currencyName: "GNF",
+    currencySymbol: "FG",
   ),
   Country(
     name: "Guinea-Bissau",
@@ -2822,6 +3002,8 @@ const List<Country> countries = [
     dialCode: "245",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Guyana",
@@ -2853,6 +3035,8 @@ const List<Country> countries = [
     dialCode: "592",
     minLength: 7,
     maxLength: 7,
+    currencyName: "GYD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Haiti",
@@ -2884,6 +3068,8 @@ const List<Country> countries = [
     dialCode: "509",
     minLength: 8,
     maxLength: 8,
+    currencyName: "HTG",
+    currencySymbol: "G",
   ),
   Country(
     name: "Heard Island and Mcdonald Islands",
@@ -2915,6 +3101,8 @@ const List<Country> countries = [
     dialCode: "672",
     minLength: 15,
     maxLength: 15,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Holy See (Vatican City State)",
@@ -2946,6 +3134,8 @@ const List<Country> countries = [
     dialCode: "379",
     minLength: 10,
     maxLength: 10,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Honduras",
@@ -2977,6 +3167,8 @@ const List<Country> countries = [
     dialCode: "504",
     minLength: 8,
     maxLength: 8,
+    currencyName: "HNL",
+    currencySymbol: "L",
   ),
   Country(
     name: "Hong Kong",
@@ -3008,6 +3200,8 @@ const List<Country> countries = [
     dialCode: "852",
     minLength: 8,
     maxLength: 8,
+    currencyName: "HKD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Hungary",
@@ -3039,6 +3233,8 @@ const List<Country> countries = [
     dialCode: "36",
     minLength: 9,
     maxLength: 9,
+    currencyName: "HUF",
+    currencySymbol: "Ft",
   ),
   Country(
     name: "Iceland",
@@ -3070,6 +3266,8 @@ const List<Country> countries = [
     dialCode: "354",
     minLength: 7,
     maxLength: 9,
+    currencyName: "ISK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "India",
@@ -3101,6 +3299,8 @@ const List<Country> countries = [
     dialCode: "91",
     minLength: 10,
     maxLength: 10,
+    currencyName: "INR",
+    currencySymbol: "₹",
   ),
   Country(
     name: "Indonesia",
@@ -3132,6 +3332,8 @@ const List<Country> countries = [
     dialCode: "62",
     minLength: 10,
     maxLength: 13,
+    currencyName: "IDR",
+    currencySymbol: "Rp",
   ),
   Country(
     name: "Iran, Islamic Republic of Persian Gulf",
@@ -3163,6 +3365,8 @@ const List<Country> countries = [
     dialCode: "98",
     minLength: 10,
     maxLength: 10,
+    currencyName: "IRR",
+    currencySymbol: "﷼",
   ),
   Country(
     name: "Iraq",
@@ -3194,6 +3398,8 @@ const List<Country> countries = [
     dialCode: "964",
     minLength: 10,
     maxLength: 10,
+    currencyName: "IQD",
+    currencySymbol: "ع.د",
   ),
   Country(
     name: "Ireland",
@@ -3225,6 +3431,8 @@ const List<Country> countries = [
     dialCode: "353",
     minLength: 7,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Isle of Man",
@@ -3256,6 +3464,8 @@ const List<Country> countries = [
     dialCode: "44",
     minLength: 6,
     maxLength: 6,
+    currencyName: "GBP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Israel",
@@ -3287,6 +3497,8 @@ const List<Country> countries = [
     dialCode: "972",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ILS",
+    currencySymbol: "₪",
   ),
   Country(
     name: "Campione d'Italia",
@@ -3318,6 +3530,8 @@ const List<Country> countries = [
     dialCode: "39",
     minLength: 9,
     maxLength: 10,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Jamaica",
@@ -3349,6 +3563,8 @@ const List<Country> countries = [
     dialCode: "1876",
     minLength: 7,
     maxLength: 7,
+    currencyName: "JMD",
+    currencySymbol: "J\$",
   ),
   Country(
     name: "Japan",
@@ -3380,6 +3596,8 @@ const List<Country> countries = [
     dialCode: "81",
     minLength: 10,
     maxLength: 10,
+    currencyName: "JPY",
+    currencySymbol: "¥",
   ),
   Country(
     name: "Jersey",
@@ -3411,6 +3629,8 @@ const List<Country> countries = [
     dialCode: "44",
     minLength: 6,
     maxLength: 6,
+    currencyName: "GBP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Jordan",
@@ -3442,6 +3662,8 @@ const List<Country> countries = [
     dialCode: "962",
     minLength: 9,
     maxLength: 9,
+    currencyName: "JOD",
+    currencySymbol: "د.ا",
   ),
   Country(
     name: "Kazakhstan",
@@ -3473,6 +3695,8 @@ const List<Country> countries = [
     dialCode: "7",
     minLength: 10,
     maxLength: 10,
+    currencyName: "KZT",
+    currencySymbol: "₸",
   ),
   Country(
     name: "Kenya",
@@ -3504,6 +3728,8 @@ const List<Country> countries = [
     dialCode: "254",
     minLength: 10,
     maxLength: 10,
+    currencyName: "KES",
+    currencySymbol: "KSh",
   ),
   Country(
     name: "Kiribati",
@@ -3535,6 +3761,8 @@ const List<Country> countries = [
     dialCode: "686",
     minLength: 5,
     maxLength: 5,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Korea, Democratic People's Republic of Korea",
@@ -3566,6 +3794,8 @@ const List<Country> countries = [
     dialCode: "850",
     minLength: 10,
     maxLength: 10,
+    currencyName: "KPW",
+    currencySymbol: "₩",
   ),
   Country(
     name: "Korea, Republic of South Korea",
@@ -3597,6 +3827,8 @@ const List<Country> countries = [
     dialCode: "82",
     minLength: 11,
     maxLength: 11,
+    currencyName: "KRW",
+    currencySymbol: "₩",
   ),
   Country(
     name: "Kuwait",
@@ -3628,6 +3860,8 @@ const List<Country> countries = [
     dialCode: "965",
     minLength: 8,
     maxLength: 8,
+    currencyName: "KWD",
+    currencySymbol: "د.ك",
   ),
   Country(
     name: "Kyrgyzstan",
@@ -3659,6 +3893,8 @@ const List<Country> countries = [
     dialCode: "996",
     minLength: 9,
     maxLength: 9,
+    currencyName: "KGS",
+    currencySymbol: "с",
   ),
   Country(
     name: "Laos",
@@ -3690,6 +3926,8 @@ const List<Country> countries = [
     dialCode: "856",
     minLength: 10,
     maxLength: 10,
+    currencyName: "LAK",
+    currencySymbol: "₭",
   ),
   Country(
     name: "Latvia",
@@ -3721,6 +3959,8 @@ const List<Country> countries = [
     dialCode: "371",
     minLength: 8,
     maxLength: 8,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Lebanon",
@@ -3752,6 +3992,8 @@ const List<Country> countries = [
     dialCode: "961",
     minLength: 8,
     maxLength: 8,
+    currencyName: "LBP",
+    currencySymbol: "ل.ل",
   ),
   Country(
     name: "Lesotho",
@@ -3783,6 +4025,8 @@ const List<Country> countries = [
     dialCode: "266",
     minLength: 8,
     maxLength: 8,
+    currencyName: "LSL",
+    currencySymbol: "L",
   ),
   Country(
     name: "Liberia",
@@ -3814,6 +4058,8 @@ const List<Country> countries = [
     dialCode: "231",
     minLength: 8,
     maxLength: 8,
+    currencyName: "LRD",
+    currencySymbol: "L\$",
   ),
   Country(
     name: "Libyan Arab Jamahiriya",
@@ -3845,6 +4091,8 @@ const List<Country> countries = [
     dialCode: "218",
     minLength: 9,
     maxLength: 9,
+    currencyName: "LYD",
+    currencySymbol: "ل.د",
   ),
   Country(
     name: "Liechtenstein",
@@ -3876,6 +4124,8 @@ const List<Country> countries = [
     dialCode: "423",
     minLength: 9,
     maxLength: 9,
+    currencyName: "CHF",
+    currencySymbol: "CHF",
   ),
   Country(
     name: "Lithuania",
@@ -3907,6 +4157,8 @@ const List<Country> countries = [
     dialCode: "370",
     minLength: 8,
     maxLength: 8,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Luxembourg",
@@ -3938,6 +4190,8 @@ const List<Country> countries = [
     dialCode: "352",
     minLength: 11,
     maxLength: 11,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Macao",
@@ -3969,6 +4223,8 @@ const List<Country> countries = [
     dialCode: "853",
     minLength: 8,
     maxLength: 8,
+    currencyName: "MOP",
+    currencySymbol: "MOP\$",
   ),
   Country(
     name: "Macedonia",
@@ -4000,6 +4256,8 @@ const List<Country> countries = [
     dialCode: "389",
     minLength: 8,
     maxLength: 8,
+    currencyName: "MKD",
+    currencySymbol: "ден",
   ),
   Country(
     name: "Madagascar",
@@ -4031,6 +4289,8 @@ const List<Country> countries = [
     dialCode: "261",
     minLength: 10,
     maxLength: 10,
+    currencyName: "MGA",
+    currencySymbol: "Ar",
   ),
   Country(
     name: "Malawi",
@@ -4062,6 +4322,8 @@ const List<Country> countries = [
     dialCode: "265",
     minLength: 7,
     maxLength: 9,
+    currencyName: "MWK",
+    currencySymbol: "MK",
   ),
   Country(
     name: "Malaysia",
@@ -4093,6 +4355,8 @@ const List<Country> countries = [
     dialCode: "60",
     minLength: 9,
     maxLength: 10,
+    currencyName: "MYR",
+    currencySymbol: "RM",
   ),
   Country(
     name: "Maldives",
@@ -4124,6 +4388,8 @@ const List<Country> countries = [
     dialCode: "960",
     minLength: 7,
     maxLength: 7,
+    currencyName: "MVR",
+    currencySymbol: "ރ.",
   ),
   Country(
     name: "Mali",
@@ -4155,6 +4421,8 @@ const List<Country> countries = [
     dialCode: "223",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Malta",
@@ -4186,6 +4454,8 @@ const List<Country> countries = [
     dialCode: "356",
     minLength: 8,
     maxLength: 8,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Marshall Islands",
@@ -4217,6 +4487,8 @@ const List<Country> countries = [
     dialCode: "692",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Martinique",
@@ -4248,6 +4520,8 @@ const List<Country> countries = [
     dialCode: "596",
     minLength: 15,
     maxLength: 15,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Mauritania",
@@ -4279,6 +4553,8 @@ const List<Country> countries = [
     dialCode: "222",
     minLength: 8,
     maxLength: 8,
+    currencyName: "MRU",
+    currencySymbol: "UM",
   ),
   Country(
     name: "Mauritius",
@@ -4310,6 +4586,8 @@ const List<Country> countries = [
     dialCode: "230",
     minLength: 7,
     maxLength: 8,
+    currencyName: "MUR",
+    currencySymbol: "₨",
   ),
   Country(
     name: "Mayotte",
@@ -4341,6 +4619,8 @@ const List<Country> countries = [
     dialCode: "262",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Mexico",
@@ -4372,6 +4652,8 @@ const List<Country> countries = [
     dialCode: "52",
     minLength: 10,
     maxLength: 10,
+    currencyName: "MXN",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Micronesia, Federated States of Micronesia",
@@ -4403,6 +4685,8 @@ const List<Country> countries = [
     dialCode: "691",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Moldova",
@@ -4434,6 +4718,8 @@ const List<Country> countries = [
     dialCode: "373",
     minLength: 8,
     maxLength: 8,
+    currencyName: "MDL",
+    currencySymbol: "L",
   ),
   Country(
     name: "Monaco",
@@ -4465,6 +4751,8 @@ const List<Country> countries = [
     dialCode: "377",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Mongolia",
@@ -4496,6 +4784,8 @@ const List<Country> countries = [
     dialCode: "976",
     minLength: 8,
     maxLength: 8,
+    currencyName: "MNT",
+    currencySymbol: "₮",
   ),
   Country(
     name: "Montenegro",
@@ -4527,6 +4817,8 @@ const List<Country> countries = [
     dialCode: "382",
     minLength: 12,
     maxLength: 12,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Montserrat",
@@ -4558,6 +4850,8 @@ const List<Country> countries = [
     dialCode: "1664",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Morocco",
@@ -4589,6 +4883,8 @@ const List<Country> countries = [
     dialCode: "212",
     minLength: 9,
     maxLength: 9,
+    currencyName: "MAD",
+    currencySymbol: "د.م.",
   ),
   Country(
     name: "Mozambique",
@@ -4620,6 +4916,8 @@ const List<Country> countries = [
     dialCode: "258",
     minLength: 9,
     maxLength: 9,
+    currencyName: "MZN",
+    currencySymbol: "MT",
   ),
   Country(
     name: "Myanmar",
@@ -4651,6 +4949,8 @@ const List<Country> countries = [
     dialCode: "95",
     minLength: 9,
     maxLength: 9,
+    currencyName: "MMK",
+    currencySymbol: "K",
   ),
   Country(
     name: "Namibia",
@@ -4682,6 +4982,8 @@ const List<Country> countries = [
     dialCode: "264",
     minLength: 10,
     maxLength: 10,
+    currencyName: "NAD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Nauru",
@@ -4713,6 +5015,8 @@ const List<Country> countries = [
     dialCode: "674",
     minLength: 7,
     maxLength: 7,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Nepal",
@@ -4744,6 +5048,8 @@ const List<Country> countries = [
     dialCode: "977",
     minLength: 10,
     maxLength: 10,
+    currencyName: "NPR",
+    currencySymbol: "₨",
   ),
   Country(
     name: "Netherlands",
@@ -4775,6 +5081,8 @@ const List<Country> countries = [
     dialCode: "31",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "New Caledonia",
@@ -4806,6 +5114,8 @@ const List<Country> countries = [
     dialCode: "687",
     minLength: 6,
     maxLength: 6,
+    currencyName: "XPF",
+    currencySymbol: "₣",
   ),
   Country(
     name: "New Zealand",
@@ -4837,6 +5147,8 @@ const List<Country> countries = [
     dialCode: "64",
     minLength: 10,
     maxLength: 10,
+    currencyName: "NZD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Nicaragua",
@@ -4868,6 +5180,8 @@ const List<Country> countries = [
     dialCode: "505",
     minLength: 8,
     maxLength: 8,
+    currencyName: "NIO",
+    currencySymbol: "C\$",
   ),
   Country(
     name: "Niger",
@@ -4899,6 +5213,8 @@ const List<Country> countries = [
     dialCode: "227",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Nigeria",
@@ -4930,6 +5246,8 @@ const List<Country> countries = [
     dialCode: "234",
     minLength: 10,
     maxLength: 11,
+    currencyName: "NGN",
+    currencySymbol: "₦",
   ),
   Country(
     name: "Niue",
@@ -4961,6 +5279,8 @@ const List<Country> countries = [
     dialCode: "683",
     minLength: 4,
     maxLength: 4,
+    currencyName: "NZD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Norfolk Island",
@@ -4992,6 +5312,8 @@ const List<Country> countries = [
     dialCode: "672",
     minLength: 15,
     maxLength: 15,
+    currencyName: "AUD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Northern Mariana Islands",
@@ -5023,6 +5345,8 @@ const List<Country> countries = [
     dialCode: "1670",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Norway",
@@ -5054,6 +5378,8 @@ const List<Country> countries = [
     dialCode: "47",
     minLength: 8,
     maxLength: 8,
+    currencyName: "NOK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Oman",
@@ -5085,6 +5411,8 @@ const List<Country> countries = [
     dialCode: "968",
     minLength: 8,
     maxLength: 8,
+    currencyName: "OMR",
+    currencySymbol: "﷼",
   ),
   Country(
     name: "Pakistan",
@@ -5116,6 +5444,8 @@ const List<Country> countries = [
     dialCode: "92",
     minLength: 10,
     maxLength: 10,
+    currencyName: "PKR",
+    currencySymbol: "₨",
   ),
   Country(
     name: "Palau",
@@ -5147,6 +5477,8 @@ const List<Country> countries = [
     dialCode: "680",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Palestinian Territory, Occupied",
@@ -5178,6 +5510,8 @@ const List<Country> countries = [
     dialCode: "970",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ILS",
+    currencySymbol: "₪",
   ),
   Country(
     name: "Panama",
@@ -5209,6 +5543,8 @@ const List<Country> countries = [
     dialCode: "507",
     minLength: 8,
     maxLength: 8,
+    currencyName: "PAB",
+    currencySymbol: "B/.",
   ),
   Country(
     name: "Papua New Guinea",
@@ -5240,6 +5576,8 @@ const List<Country> countries = [
     dialCode: "675",
     minLength: 11,
     maxLength: 11,
+    currencyName: "PGK",
+    currencySymbol: "K",
   ),
   Country(
     name: "Paraguay",
@@ -5271,6 +5609,8 @@ const List<Country> countries = [
     dialCode: "595",
     minLength: 10,
     maxLength: 10,
+    currencyName: "PYG",
+    currencySymbol: "₲",
   ),
   Country(
     name: "Peru",
@@ -5302,6 +5642,8 @@ const List<Country> countries = [
     dialCode: "51",
     minLength: 9,
     maxLength: 9,
+    currencyName: "PEN",
+    currencySymbol: "S/.",
   ),
   Country(
     name: "Philippines",
@@ -5333,6 +5675,8 @@ const List<Country> countries = [
     dialCode: "63",
     minLength: 10,
     maxLength: 10,
+    currencyName: "PHP",
+    currencySymbol: "₱",
   ),
   Country(
     name: "Pitcairn",
@@ -5364,6 +5708,8 @@ const List<Country> countries = [
     dialCode: "64",
     minLength: 10,
     maxLength: 10,
+    currencyName: "NZD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Poland",
@@ -5395,6 +5741,8 @@ const List<Country> countries = [
     dialCode: "48",
     minLength: 9,
     maxLength: 9,
+    currencyName: "PLN",
+    currencySymbol: "zł",
   ),
   Country(
     name: "Portugal",
@@ -5426,6 +5774,8 @@ const List<Country> countries = [
     dialCode: "351",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Puerto Rico",
@@ -5457,6 +5807,8 @@ const List<Country> countries = [
     dialCode: "1939",
     minLength: 15,
     maxLength: 15,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Qatar",
@@ -5488,6 +5840,8 @@ const List<Country> countries = [
     dialCode: "974",
     minLength: 8,
     maxLength: 8,
+    currencyName: "QAR",
+    currencySymbol: "﷼",
   ),
   Country(
     name: "Romania",
@@ -5519,6 +5873,8 @@ const List<Country> countries = [
     dialCode: "40",
     minLength: 9,
     maxLength: 9,
+    currencyName: "RON",
+    currencySymbol: "lei",
   ),
   Country(
     name: "Russia",
@@ -5550,6 +5906,8 @@ const List<Country> countries = [
     dialCode: "7",
     minLength: 10,
     maxLength: 10,
+    currencyName: "RUB",
+    currencySymbol: "₽",
   ),
   Country(
     name: "Rwanda",
@@ -5581,6 +5939,8 @@ const List<Country> countries = [
     dialCode: "250",
     minLength: 9,
     maxLength: 9,
+    currencyName: "RWF",
+    currencySymbol: "FRw",
   ),
   Country(
     name: "Reunion",
@@ -5612,6 +5972,8 @@ const List<Country> countries = [
     dialCode: "262",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Saint Barthelemy",
@@ -5643,6 +6005,8 @@ const List<Country> countries = [
     dialCode: "590",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Saint Helena, Ascension and Tristan Da Cunha",
@@ -5674,6 +6038,8 @@ const List<Country> countries = [
     dialCode: "290",
     minLength: 4,
     maxLength: 4,
+    currencyName: "SHP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Saint Kitts and Nevis",
@@ -5705,6 +6071,8 @@ const List<Country> countries = [
     dialCode: "1869",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Saint Lucia",
@@ -5736,6 +6104,8 @@ const List<Country> countries = [
     dialCode: "1758",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Saint Martin",
@@ -5767,6 +6137,8 @@ const List<Country> countries = [
     dialCode: "590",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Saint Pierre and Miquelon",
@@ -5798,6 +6170,8 @@ const List<Country> countries = [
     dialCode: "508",
     minLength: 6,
     maxLength: 6,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Saint Vincent and the Grenadines",
@@ -5829,6 +6203,8 @@ const List<Country> countries = [
     dialCode: "1784",
     minLength: 7,
     maxLength: 7,
+    currencyName: "XCD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Samoa",
@@ -5860,6 +6236,8 @@ const List<Country> countries = [
     dialCode: "685",
     minLength: 7,
     maxLength: 7,
+    currencyName: "WST",
+    currencySymbol: "WS\$",
   ),
   Country(
     name: "San Marino",
@@ -5891,6 +6269,8 @@ const List<Country> countries = [
     dialCode: "378",
     minLength: 10,
     maxLength: 10,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Sao Tome and Principe",
@@ -5922,6 +6302,8 @@ const List<Country> countries = [
     dialCode: "239",
     minLength: 7,
     maxLength: 7,
+    currencyName: "STN",
+    currencySymbol: "Db",
   ),
   Country(
     name: "Saudi Arabia",
@@ -5953,6 +6335,8 @@ const List<Country> countries = [
     dialCode: "966",
     minLength: 9,
     maxLength: 9,
+    currencyName: "SAR",
+    currencySymbol: "﷼",
   ),
   Country(
     name: "Senegal",
@@ -5984,6 +6368,8 @@ const List<Country> countries = [
     dialCode: "221",
     minLength: 9,
     maxLength: 9,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Serbia",
@@ -6015,6 +6401,8 @@ const List<Country> countries = [
     dialCode: "381",
     minLength: 12,
     maxLength: 12,
+    currencyName: "RSD",
+    currencySymbol: "din",
   ),
   Country(
     name: "Seychelles",
@@ -6046,6 +6434,8 @@ const List<Country> countries = [
     dialCode: "248",
     minLength: 6,
     maxLength: 6,
+    currencyName: "SCR",
+    currencySymbol: "SR",
   ),
   Country(
     name: "Sierra Leone",
@@ -6077,6 +6467,8 @@ const List<Country> countries = [
     dialCode: "232",
     minLength: 8,
     maxLength: 8,
+    currencyName: "SLL",
+    currencySymbol: "Le",
   ),
   Country(
     name: "Singapore",
@@ -6108,6 +6500,8 @@ const List<Country> countries = [
     dialCode: "65",
     minLength: 8,
     maxLength: 8,
+    currencyName: "SGD",
+    currencySymbol: "S\$",
   ),
   Country(
     name: "Slovakia",
@@ -6139,6 +6533,8 @@ const List<Country> countries = [
     dialCode: "421",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Slovenia",
@@ -6170,6 +6566,8 @@ const List<Country> countries = [
     dialCode: "386",
     minLength: 8,
     maxLength: 8,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Solomon Islands",
@@ -6201,6 +6599,8 @@ const List<Country> countries = [
     dialCode: "677",
     minLength: 5,
     maxLength: 5,
+    currencyName: "SBD",
+    currencySymbol: "SI\$",
   ),
   Country(
     name: "Somalia",
@@ -6232,6 +6632,8 @@ const List<Country> countries = [
     dialCode: "252",
     minLength: 8,
     maxLength: 8,
+    currencyName: "SOS",
+    currencySymbol: "Sh.So.",
   ),
   Country(
     name: "South Africa",
@@ -6263,6 +6665,8 @@ const List<Country> countries = [
     dialCode: "27",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ZAR",
+    currencySymbol: "R",
   ),
   Country(
     name: "South Sudan",
@@ -6294,6 +6698,8 @@ const List<Country> countries = [
     dialCode: "211",
     minLength: 9,
     maxLength: 9,
+    currencyName: "SSP",
+    currencySymbol: "£",
   ),
   Country(
     name: "South Georgia and the South Sandwich Islands",
@@ -6325,6 +6731,8 @@ const List<Country> countries = [
     dialCode: "500",
     minLength: 15,
     maxLength: 15,
+    currencyName: "GBP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Spain",
@@ -6356,6 +6764,8 @@ const List<Country> countries = [
     dialCode: "34",
     minLength: 9,
     maxLength: 9,
+    currencyName: "EUR",
+    currencySymbol: "€",
   ),
   Country(
     name: "Sri Lanka",
@@ -6387,6 +6797,8 @@ const List<Country> countries = [
     dialCode: "94",
     minLength: 9,
     maxLength: 9,
+    currencyName: "LKR",
+    currencySymbol: "Rs",
   ),
   Country(
     name: "Sudan",
@@ -6418,6 +6830,8 @@ const List<Country> countries = [
     dialCode: "249",
     minLength: 9,
     maxLength: 9,
+    currencyName: "SDG",
+    currencySymbol: "SDG",
   ),
   Country(
     name: "Suriname",
@@ -6449,6 +6863,8 @@ const List<Country> countries = [
     dialCode: "597",
     minLength: 7,
     maxLength: 7,
+    currencyName: "SRD",
+    currencySymbol: "SRD",
   ),
   Country(
     name: "Svalbard and Jan Mayen",
@@ -6480,6 +6896,8 @@ const List<Country> countries = [
     dialCode: "47",
     minLength: 8,
     maxLength: 8,
+    currencyName: "NOK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Eswatini",
@@ -6511,6 +6929,8 @@ const List<Country> countries = [
     dialCode: "268",
     minLength: 8,
     maxLength: 8,
+    currencyName: "SZL",
+    currencySymbol: "E",
   ),
   Country(
     name: "Sweden",
@@ -6542,6 +6962,8 @@ const List<Country> countries = [
     dialCode: "46",
     minLength: 7,
     maxLength: 13,
+    currencyName: "SEK",
+    currencySymbol: "kr",
   ),
   Country(
     name: "Switzerland",
@@ -6573,6 +6995,8 @@ const List<Country> countries = [
     dialCode: "41",
     minLength: 9,
     maxLength: 12,
+    currencyName: "CHF",
+    currencySymbol: "CHF",
   ),
   Country(
     name: "Syrian Arab Republic",
@@ -6604,6 +7028,8 @@ const List<Country> countries = [
     dialCode: "963",
     minLength: 9,
     maxLength: 9,
+    currencyName: "SYP",
+    currencySymbol: "£",
   ),
   Country(
     name: "Taiwan",
@@ -6635,6 +7061,8 @@ const List<Country> countries = [
     dialCode: "886",
     minLength: 9,
     maxLength: 9,
+    currencyName: "TWD",
+    currencySymbol: "NT\$",
   ),
   Country(
     name: "Tajikistan",
@@ -6666,6 +7094,8 @@ const List<Country> countries = [
     dialCode: "992",
     minLength: 9,
     maxLength: 9,
+    currencyName: "TJS",
+    currencySymbol: "SM",
   ),
   Country(
     name: "Tanzania, United Republic of Tanzania",
@@ -6697,6 +7127,8 @@ const List<Country> countries = [
     dialCode: "255",
     minLength: 9,
     maxLength: 9,
+    currencyName: "TZS",
+    currencySymbol: "TSh",
   ),
   Country(
     name: "Thailand",
@@ -6728,6 +7160,8 @@ const List<Country> countries = [
     dialCode: "66",
     minLength: 9,
     maxLength: 9,
+    currencyName: "THB",
+    currencySymbol: "฿",
   ),
   Country(
     name: "Timor-Leste",
@@ -6759,6 +7193,8 @@ const List<Country> countries = [
     dialCode: "670",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Togo",
@@ -6790,6 +7226,8 @@ const List<Country> countries = [
     dialCode: "228",
     minLength: 8,
     maxLength: 8,
+    currencyName: "XOF",
+    currencySymbol: "CFA",
   ),
   Country(
     name: "Tokelau",
@@ -6821,6 +7259,8 @@ const List<Country> countries = [
     dialCode: "690",
     minLength: 4,
     maxLength: 4,
+    currencyName: "NZD",
+    currencySymbol: "NZ\$",
   ),
   Country(
     name: "Tonga",
@@ -6852,6 +7292,8 @@ const List<Country> countries = [
     dialCode: "676",
     minLength: 7,
     maxLength: 7,
+    currencyName: "TOP",
+    currencySymbol: "T\$",
   ),
   Country(
     name: "Trinidad and Tobago",
@@ -6883,6 +7325,8 @@ const List<Country> countries = [
     dialCode: "1868",
     minLength: 7,
     maxLength: 7,
+    currencyName: "TTD",
+    currencySymbol: "TT\$",
   ),
   Country(
     name: "Tunisia",
@@ -6914,6 +7358,8 @@ const List<Country> countries = [
     dialCode: "216",
     minLength: 8,
     maxLength: 8,
+    currencyName: "TND",
+    currencySymbol: "د.ت",
   ),
   Country(
     name: "Turkey",
@@ -6945,6 +7391,8 @@ const List<Country> countries = [
     dialCode: "90",
     minLength: 10,
     maxLength: 10,
+    currencyName: "TRY",
+    currencySymbol: "₺",
   ),
   Country(
     name: "Turkmenistan",
@@ -6976,6 +7424,8 @@ const List<Country> countries = [
     dialCode: "993",
     minLength: 8,
     maxLength: 8,
+    currencyName: "TMT",
+    currencySymbol: "T",
   ),
   Country(
     name: "Turks and Caicos Islands",
@@ -7007,6 +7457,8 @@ const List<Country> countries = [
     dialCode: "1649",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Tuvalu",
@@ -7038,6 +7490,8 @@ const List<Country> countries = [
     dialCode: "688",
     minLength: 6,
     maxLength: 6,
+    currencyName: "AUD",
+    currencySymbol: "AU\$",
   ),
   Country(
     name: "Uganda",
@@ -7069,6 +7523,8 @@ const List<Country> countries = [
     dialCode: "256",
     minLength: 9,
     maxLength: 9,
+    currencyName: "UGX",
+    currencySymbol: "USh",
   ),
   Country(
     name: "Ukraine",
@@ -7100,6 +7556,8 @@ const List<Country> countries = [
     dialCode: "380",
     minLength: 9,
     maxLength: 9,
+    currencyName: "UAH",
+    currencySymbol: "₴",
   ),
   Country(
     name: "United Arab Emirates",
@@ -7131,6 +7589,8 @@ const List<Country> countries = [
     dialCode: "971",
     minLength: 9,
     maxLength: 9,
+    currencyName: "AED",
+    currencySymbol: "د.إ",
   ),
   Country(
     name: "United Kingdom",
@@ -7162,6 +7622,8 @@ const List<Country> countries = [
     dialCode: "44",
     minLength: 10,
     maxLength: 10,
+    currencyName: "GBP",
+    currencySymbol: "£",
   ),
   Country(
     name: "United States",
@@ -7193,6 +7655,8 @@ const List<Country> countries = [
     dialCode: "1",
     minLength: 10,
     maxLength: 10,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Uruguay",
@@ -7224,6 +7688,8 @@ const List<Country> countries = [
     dialCode: "598",
     minLength: 9,
     maxLength: 9,
+    currencyName: "UYU",
+    currencySymbol: "\$U",
   ),
   Country(
     name: "Uzbekistan",
@@ -7255,6 +7721,8 @@ const List<Country> countries = [
     dialCode: "998",
     minLength: 9,
     maxLength: 9,
+    currencyName: "UZS",
+    currencySymbol: "UZS",
   ),
   Country(
     name: "Vanuatu",
@@ -7286,6 +7754,8 @@ const List<Country> countries = [
     dialCode: "678",
     minLength: 7,
     maxLength: 7,
+    currencyName: "VUV",
+    currencySymbol: "VT",
   ),
   Country(
     name: "Venezuela, Bolivarian Republic of Venezuela",
@@ -7317,6 +7787,8 @@ const List<Country> countries = [
     dialCode: "58",
     minLength: 10,
     maxLength: 10,
+    currencyName: "VES",
+    currencySymbol: "Bs",
   ),
   Country(
     name: "Vietnam",
@@ -7348,6 +7820,8 @@ const List<Country> countries = [
     dialCode: "84",
     minLength: 11,
     maxLength: 11,
+    currencyName: "VND",
+    currencySymbol: "₫",
   ),
   Country(
     name: "Virgin Islands, British",
@@ -7379,6 +7853,8 @@ const List<Country> countries = [
     dialCode: "1284",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Virgin Islands, U.S.",
@@ -7410,6 +7886,8 @@ const List<Country> countries = [
     dialCode: "1340",
     minLength: 7,
     maxLength: 7,
+    currencyName: "USD",
+    currencySymbol: "\$",
   ),
   Country(
     name: "Wallis and Futuna",
@@ -7441,6 +7919,8 @@ const List<Country> countries = [
     dialCode: "681",
     minLength: 6,
     maxLength: 6,
+    currencyName: "XPF",
+    currencySymbol: "₣",
   ),
   Country(
     name: "Yemen",
@@ -7472,6 +7952,8 @@ const List<Country> countries = [
     dialCode: "967",
     minLength: 9,
     maxLength: 9,
+    currencyName: "YER",
+    currencySymbol: "﷼",
   ),
   Country(
     name: "Zambia",
@@ -7503,37 +7985,42 @@ const List<Country> countries = [
     dialCode: "260",
     minLength: 9,
     maxLength: 9,
+    currencyName: "ZMW",
+    currencySymbol: "ZK",
   ),
   Country(
-      name: "Zimbabwe",
-      nameTranslations: {
-        "sk": "Zimbabwe",
-        "se": "Zimbabwe",
-        "pl": "Zimbabwe",
-        "no": "Zimbabwe",
-        "ja": "ジンバブエ",
-        "it": "Zimbabwe",
-        "zh": "津巴布韦",
-        "nl": "Zimbabwe",
-        "de": "Simbabwe",
-        "fr": "Zimbabwe",
-        "es": "Zimbabue",
-        "en": "Zimbabwe",
-        "pt_BR": "Zimbábue",
-        "sr-Cyrl": "Зимбабве",
-        "sr-Latn": "Zimbabve",
-        "zh_TW": "辛巴威",
-        "tr": "Zimbabve",
-        "ro": "Zimbabwe",
-        "ar": "زيمبابوي",
-        "fa": "زیمبابوه",
-        "yue": "津巴布韋"
-      },
-      flag: "🇿🇼",
-      code: "ZW",
-      dialCode: "263",
-      minLength: 9,
-      maxLength: 9)
+    name: "Zimbabwe",
+    nameTranslations: {
+      "sk": "Zimbabwe",
+      "se": "Zimbabwe",
+      "pl": "Zimbabwe",
+      "no": "Zimbabwe",
+      "ja": "ジンバブエ",
+      "it": "Zimbabwe",
+      "zh": "津巴布韦",
+      "nl": "Zimbabwe",
+      "de": "Simbabwe",
+      "fr": "Zimbabwe",
+      "es": "Zimbabue",
+      "en": "Zimbabwe",
+      "pt_BR": "Zimbábue",
+      "sr-Cyrl": "Зимбабве",
+      "sr-Latn": "Zimbabve",
+      "zh_TW": "辛巴威",
+      "tr": "Zimbabve",
+      "ro": "Zimbabwe",
+      "ar": "زيمبابوي",
+      "fa": "زیمبابوه",
+      "yue": "津巴布韋"
+    },
+    flag: "🇿🇼",
+    code: "ZW",
+    dialCode: "263",
+    minLength: 9,
+    maxLength: 9,
+    currencyName: "ZWL",
+    currencySymbol: "ZWL",
+  ),
 ];
 
 class Country {
@@ -7545,6 +8032,8 @@ class Country {
   final String regionCode;
   final int minLength;
   final int maxLength;
+  final String currencyName;
+  final String currencySymbol;
 
   const Country({
     required this.name,
@@ -7555,6 +8044,8 @@ class Country {
     required this.minLength,
     required this.maxLength,
     this.regionCode = "",
+    required this.currencyName,
+    required this.currencySymbol,
   });
 
   String get fullCountryCode {
