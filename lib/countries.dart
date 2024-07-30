@@ -8048,9 +8048,7 @@ class Country {
     required this.currencySymbol,
   });
 
-  String get fullCountryCode {
-    return dialCode + regionCode;
-  }
+  String get fullCountryCode => dialCode + regionCode;
 
   String get displayCC {
     if (regionCode != "") {
@@ -8059,7 +8057,7 @@ class Country {
     return dialCode;
   }
 
-  String localizedName(String languageCode) {
-    return nameTranslations[languageCode] ?? name;
-  }
+  String localizedName(String languageCode) => nameTranslations[languageCode] ?? name;
+
+  String get dialCodeWithPlus => "+$dialCode";
 }
