@@ -1,3 +1,7 @@
+## [4.0.1] - Release
+
+- Updated dependencies and adding support for Flutter 3.27.1.
+
 ## [4.0.0] - Release
 
 - Updated dependencies and adding support for Flutter 3.22.3.

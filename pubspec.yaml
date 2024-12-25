@@ -1,17 +1,17 @@
 name: intl_phone_field
 description: A customised Flutter TextFormField to input international phone number along with country code.
-version: 4.0.0
+version: 4.0.1
 homepage: https://github.com/vanshg395/intl_phone_field
 
 environment:
-  sdk: ">=3.4.4 <4.0.0"
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
   test: ^1.25.2
