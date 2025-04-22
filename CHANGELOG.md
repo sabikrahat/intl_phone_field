@@ -1,5 +1,10 @@
 ## [4.0.1] - Release
 
+- Updated dependencies and adding support for Flutter 3.29.3.
+- Add `completeNumberWithPlus` getter method on `PhoneNumber` class to get the complete phone number with the country code and plus sign.
+
+## [4.0.1] - Release
+
 - Updated dependencies and adding support for Flutter 3.27.1.
 
 ## [4.0.0] - Release

@@ -11,11 +11,7 @@ class PhoneNumber {
   String countryCode;
   String number;
 
-  PhoneNumber({
-    required this.countryISOCode,
-    required this.countryCode,
-    required this.number,
-  });
+  PhoneNumber({required this.countryISOCode, required this.countryCode, required this.number});
 
   factory PhoneNumber.fromCompleteNumber({required String completeNumber}) {
     if (completeNumber == "") {
@@ -31,7 +27,10 @@ class PhoneNumber {
         number = completeNumber.substring(country.dialCode.length + country.regionCode.length);
       }
       return PhoneNumber(
-          countryISOCode: country.code, countryCode: country.dialCode + country.regionCode, number: number);
+        countryISOCode: country.code,
+        countryCode: country.dialCode + country.regionCode,
+        number: number,
+      );
     } on InvalidCharactersException {
       rethrow;
       // ignore: unused_catch_clause
@@ -56,6 +55,10 @@ class PhoneNumber {
     return countryCode + number;
   }
 
+  String get completeNumberWithPlus {
+    return '+$completeNumber';
+  }
+
   static Country getCountry(String phoneNumber) {
     if (phoneNumber == "") {
       throw NumberTooShortException();
@@ -68,8 +71,9 @@ class PhoneNumber {
     }
 
     if (phoneNumber.startsWith('+')) {
-      return countries
-          .firstWhere((country) => phoneNumber.substring(1).startsWith(country.dialCode + country.regionCode));
+      return countries.firstWhere(
+        (country) => phoneNumber.substring(1).startsWith(country.dialCode + country.regionCode),
+      );
     }
     return countries.firstWhere((country) => phoneNumber.startsWith(country.dialCode + country.regionCode));
   }
